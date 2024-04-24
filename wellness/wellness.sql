@@ -12,14 +12,14 @@ CREATE TABLE users
     last_name varchar(225) NOT NULL
 );
 
-INSERT INTO users (username, email, password, first_name, last_name) VALUES ("admin101", "admin@well.com", "6F5393979D674DE36C433B47B7D8908E", "admin","admin");
-INSERT INTO users (username, email, password, first_name, last_name) VALUES ("Natasha_BornToTrumpet", "natasha@gmail.com", "6F5393979D674DE36C433B47B7D8908E", "Natasha","Born");
+INSERT INTO users (username, email, password, first_name, last_name) VALUES ("admin202", "admin@well.com", "6F5393979D674DE36C433B47B7D8908E", "admin","admin");
+INSERT INTO users (username, email, password, first_name, last_name) VALUES ("Supraja_BornToTrumpet", "natasha@gmail.com", "6F5393979D674DE36C433B47B7D8908E", "Natasha","Born");
 INSERT INTO users (username, email, password, first_name, last_name) VALUES ("Claire_Bear", "claire@gmail.com", "6F5393979D674DE36C433B47B7D8908E", "Claire","Delany");
-INSERT INTO users (username, email, password, first_name, last_name) VALUES ("Steven_Swag", "steven@gmail.com", "6F5393979D674DE36C433B47B7D8908E", "Steven","Taylor");
+INSERT INTO users (username, email, password, first_name, last_name) VALUES ("Supraja_Swag", "steven@gmail.com", "6F5393979D674DE36C433B47B7D8908E", "Steven","Taylor");
 INSERT INTO users (username, email, password, first_name, last_name) VALUES ("Pankti_coolBean", "pankti@gmail.com", "6F5393979D674DE36C433B47B7D8908E", "Pankti","Shah");
 INSERT INTO users (username, email, password, first_name, last_name) VALUES ("Frank", "frank@gmail.com", "912ec803b2ce49e4a541068d495ab570", "Frank","Guy");
-INSERT INTO users (username, email, password, first_name, last_name) VALUES ("atharva", "atharva@gmail.com", "912ec803b2ce49e4a541068d495ab570", "atharva","Guy");
-INSERT INTO users (username, email, password, first_name, last_name) VALUES ("swaraa", "swaraa@gmail.com", "912ec803b2ce49e4a541068d495ab570", "swaraa","Girl");
+INSERT INTO users (username, email, password, first_name, last_name) VALUES ("amit", "amit@gmail.com", "912ec803b2ce49e4a541068d495ab570", "atharva","Guy");
+INSERT INTO users (username, email, password, first_name, last_name) VALUES ("keshav", "keshav@gmail.com", "912ec803b2ce49e4a541068d495ab570", "swaraa","Girl");
 
 
 
