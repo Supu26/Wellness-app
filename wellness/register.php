@@ -146,7 +146,10 @@ html {
   	<?php include('errors.php'); ?>
   	<div class="input-group">
   	  <label>Username</label>
-  	  <input type="text" name="username" placeholder="Enter Username..." value="<?php echo $username; ?>">
+  	  <input type="text" name="username" placeholder="Enter Username..." value="<?php echo $username; ?>"
+        pattern="[a-zA-Z]+" title="Alphabets only"
+        oninvalid="this.setCustomValidity('Please enter alphabets only.')"
+        oninput="this.setCustomValidity('')">
   	</div>
     
     <div class="input-group">
